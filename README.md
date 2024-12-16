@@ -1,22 +1,14 @@
-> [!WARNING]
-> This version of KYBER is not directly associated with [KYBER V2](https://uplink.kyber.gg/news/features-overview/), which has been under private development, with a whole host of new and improved features for STAR WARS™ Battlefront™ II (2017).
+> [!NOTE]
+> Auric is not directly associated with [KYBER V2](https://uplink.kyber.gg/news/features-overview/), STAR WARS™ Battlefront™ II's (2017) Private Server tool which has been under private development. However, Auric is based on the Original Source code for V1 of Kyber found [here](https://github.com/ArmchairDevelopers/Kyber).
 
-This version has been modified to support the creation and hosting of moddable servers for STAR WARS™ Battlefront™ (2015).
+This version is a modified version of [KYBER V1](https://github.com/ArmchairDevelopers/Kyber), supporting the creation and hosting of moddable servers for STAR WARS™ Battlefront™ (2015).
 
-<h1 align="center"><img src="https://kyber.gg/logo2.svg" width="30rem"> Kyber</h1>
+<h1 align="center"><img src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" width="30rem"> Auric</h1>
 
-<h4 align="center">This port of Kyber is an Open-Source Private Server tool for STAR WARS™ Battlefront™ (2015).</h4>
-<br>
-<p align="center">
-  <a href="https://twitter.com/BattleDashBR"><img src="https://img.shields.io/badge/Twitter-@BattleDashBR-1da1f2.svg?logo=twitter"></a>
-  <a href="https://discord.gg/kyber">
-      <img src="https://img.shields.io/discord/305338604316655616.svg?label=Discord&logo=discord&color=778cd4">
-  </a>
-  
-</p>
+<h4 align="center">Auric is an Open-Source Private Server tool for STAR WARS™ Battlefront™ (2015)</h4>
 
 ------
-In the future, this port for STAR WARS™ Battlefront™ (2015) will have proxy support.
+In the future, Auric will have proxy support.
 
 
 What's done:
@@ -30,20 +22,19 @@ What isn't done:
 * In-Game server browser
 * Direct proxy support
 * Per-player team swapping
-* Player kicking/moderation
 * Optimal proxy detection
-* Built-in mod verification (currently handled at the proxy level, meaning it's unavailable if you direct-connect)
-* Kick messages (currently if you are kicked by the server admin you just get sent back to the menu with no indication of why)
+* Player Kicking/moderation
 * Player banning
-* Database handling at the proxy level
 
-This port of Kyber is purely for port forwarding and having people connect to your IP. Once a proxy is set up, this issue will not occure. Feel free to build Kyber and inject it with the new launcher (/Launcher, will need a few modifications to run your own dll).
+Auric is purely for port forwarding and having people connect to your IP. Once a proxy is set up, this issue will not be necessary. Feel free to build Auric and inject it with the new launcher (the launcher has not been set up yet).
+
+Port Forwarding is only necessary for the server hoster. Use UDP through port 25200
 
 **Stars and PRs are welcome!**
 
 ## Credits
 
-Kyber utilizes the following open-source projects:
+Auric utilizes the following open-source projects:
 
 - [MinHook](https://github.com/TsudaKageyu/minhook)
 - [ImGUI](https://github.com/ocornut/imgui)
@@ -54,5 +45,8 @@ Kyber utilizes the following open-source projects:
 - [nlohmann-json](https://github.com/nlohmann/json)
 
 People
-- BattleDash - Teaching me (CargoPants/Nuuby)
-- Andersson799 - Offset for InclusionSetting Crash, correclty assigning the SocketManager
+- CargoPants - Responsible for rewriting [Kyber](https://github.com/ArmchairDevelopers/Kyber) V1's code to work with swbf 2015.
+- BattleDash - Original source code and help with IDA/x64dbg
+- Andersson799 - Offset for InclusionSetting Crash fix, and for helping to correclty assigning the SocketManager
+- Dangercato - Original UI/UX
+- Kape1223 - Concepts for the updated UI (Not yet included on this repository)
