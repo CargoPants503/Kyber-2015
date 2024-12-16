@@ -1,9 +1,11 @@
 > [!WARNING]
-> This version of KYBER is not up to date. Be on the lookout for the [KYBER V2](https://uplink.kyber.gg/news/features-overview/) update, which has been under private development, with a whole host of new and improved features.
+> This version of KYBER is not directly associated with [KYBER V2](https://uplink.kyber.gg/news/features-overview/), which has been under private development, with a whole host of new and improved features for STAR WARS™ Battlefront™ II (2017).
+
+This version has been modified to support the creation and hosting of moddable servers for STAR WARS™ Battlefront™ (2015).
 
 <h1 align="center"><img src="https://kyber.gg/logo2.svg" width="30rem"> Kyber</h1>
 
-<h4 align="center">Kyber is an Open-Source Private Server tool for STAR WARS™ Battlefront™ II (2017).</h4>
+<h4 align="center">This port of Kyber is an Open-Source Private Server tool for STAR WARS™ Battlefront™ (2015).</h4>
 <br>
 <p align="center">
   <a href="https://twitter.com/BattleDashBR"><img src="https://img.shields.io/badge/Twitter-@BattleDashBR-1da1f2.svg?logo=twitter"></a>
@@ -14,27 +16,28 @@
 </p>
 
 ------
+In the future, this port for STAR WARS™ Battlefront™ (2015) will have proxy support.
 
-A hosted version of Kyber is available at [kyber.gg](https://kyber.gg), where I operate proxies for server data that alleviate the issue of port forwarding and IP security.
 
 What's done:
 * Server starting
-* Networking
-* Direct proxy support
+* Networking/Joining
 * NAT Punch-Through system
+* UX/UI Styling (WIP)
+
+
+What isn't done:
 * In-Game server browser
+* Direct proxy support
 * Per-player team swapping
 * Player kicking/moderation
 * Optimal proxy detection
-
-What isn't done:
 * Built-in mod verification (currently handled at the proxy level, meaning it's unavailable if you direct-connect)
 * Kick messages (currently if you are kicked by the server admin you just get sent back to the menu with no indication of why)
-* UX/UI Styling (WIP)
 * Player banning
 * Database handling at the proxy level
 
-If you want to use Kyber purely without a proxy (port forwarding and having people connect to your IP), the rewrite (this) is completely usable for that, feel free to build Kyber and inject it with the new launcher (/Launcher, will need a few modifications to run your own dll).
+This port of Kyber is purely for port forwarding and having people connect to your IP. Once a proxy is set up, this issue will not occure. Feel free to build Kyber and inject it with the new launcher (/Launcher, will need a few modifications to run your own dll).
 
 **Stars and PRs are welcome!**
 
@@ -49,3 +52,7 @@ Kyber utilizes the following open-source projects:
 - [openssl](https://openssl.org)
 - [executors](https://github.com/chriskohlhoff/executors)
 - [nlohmann-json](https://github.com/nlohmann/json)
+
+People
+- BattleDash - Teaching me (CargoPants/Nuuby)
+- Andersson799 - Offset for InclusionSetting Crash, correclty assigning the SocketManager
