@@ -1,7 +1,7 @@
 > [!NOTE]
-> Auric is not directly associated with [KYBER V2](https://uplink.kyber.gg/news/features-overview/), STAR WARS™ Battlefront™ II's (2017) Private Server tool which has been under private development. However, Auric is based on the Original Source code for V1 of Kyber found [here](https://github.com/ArmchairDevelopers/Kyber).
+> Auric is not directly associated with [KYBER V2](https://uplink.kyber.gg/news/features-overview/), STAR WARS™ Battlefront™ II's (2017) Private Server tool which has been under private development. However, Auric is based on the Original Source.
 
-This version is a modified version of [KYBER V1](https://github.com/ArmchairDevelopers/Kyber), supporting the creation and hosting of moddable servers for STAR WARS™ Battlefront™ (2015).
+Auric is a modified version of [KYBER V1](https://github.com/ArmchairDevelopers/Kyber), supporting the creation and hosting of moddable servers for STAR WARS™ Battlefront™ (2015).
 
 <h1 align="center"><img src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" width="30rem"> Auric</h1>
 
@@ -28,7 +28,7 @@ What isn't done:
 
 Auric is purely for port forwarding and having people connect to your IP. Once a proxy is set up, this issue will not be necessary. Feel free to build Auric and inject it with the new launcher (the launcher has not been set up yet).
 
-Port Forwarding is only necessary for the server hoster. Use UDP through port 25200
+Port Forwarding is only necessary for the server hoster. Use UDP through port 25200 and 25100
 
 **Stars and PRs are welcome!**
 
