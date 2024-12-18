@@ -1,7 +1,9 @@
 > [!NOTE]
 > Auric is not directly associated with [KYBER V2](https://uplink.kyber.gg/news/features-overview/), STAR WARS™ Battlefront™ II's (2017) Private Server tool which has been under private development. However, Auric is based on the Original Source.
 
-Auric is a modified version of [KYBER V1](https://github.com/ArmchairDevelopers/Kyber), supporting the creation and hosting of moddable servers for STAR WARS™ Battlefront™ (2015).
+Auric is a modified version of [KYBER V1](https://github.com/ArmchairDevelopers/Kyber), supporting the creation and hosting of moddable servers for STAR WARS™ Battlefront™ (2015). 
+
+[The source code will not be available until December 24, 2025]
 
 <h1 align="center"><img src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" width="30rem"> Auric</h1>
 
