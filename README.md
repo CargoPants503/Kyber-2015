@@ -1,11 +1,18 @@
 > [!NOTE]
-> Auric is not directly associated with [KYBER V2](https://uplink.kyber.gg/news/features-overview/), STAR WARS™ Battlefront™ II's (2017) Private Server tool which has been under private development. However, Auric is based on the Original Source.
+> Auric is not directly associated with [KYBER V2](https://uplink.kyber.gg/news/features-overview/), STAR WARS™ Battlefront™ II's Private Server tool. However, Auric is based on the Original Source.
 
 Auric is a modified version of [KYBER V1](https://github.com/ArmchairDevelopers/Kyber), supporting the creation and hosting of moddable servers for STAR WARS™ Battlefront™ (2015). 
 
 [The source code will not be available until December 24, 2025]
 
-<h1 align="center"><img src="https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM=" width="30rem"> Auric</h1>
+<h1 align="center" style="display: flex; justify-content: center; align-items: center;">
+  <span style="font-size: 5rem;">Auric</span>
+  <br>
+  <img src="https://github.com/CargoPants503/Auric/blob/main/Libraries/Sources/imgui/Logo1.png?raw=true" width="60rem" style="margin-right: 1rem;">
+</h1>
+
+
+
 
 <h4 align="center">Auric is an Open-Source Private Server tool for STAR WARS™ Battlefront™ (2015)</h4>
 
@@ -47,7 +54,7 @@ Auric utilizes the following open-source projects:
 - [nlohmann-json](https://github.com/nlohmann/json)
 
 People
-- CargoPants - Responsible for rewriting [Kyber](https://github.com/ArmchairDevelopers/Kyber) V1's code to work with swbf 2015.
+- CargoPants - Responsible for rewriting [Kyber V1](https://github.com/ArmchairDevelopers/Kyber)'s code to work with STAR WARS™ Battlefront™
 - BattleDash - Original source code and help with IDA/x64dbg
 - Andersson799 - Offset for InclusionSetting Crash fix, and for helping to correclty assigning the SocketManager
 - Dangercato - Original UI/UX
